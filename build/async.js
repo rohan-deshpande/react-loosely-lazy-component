@@ -1,0 +1,8 @@
+import React from 'react';
+
+var LazyDependency = function LazyDependency() {
+  return /*#__PURE__*/React.createElement("div", null, "I am a lazy component that is from a dependency");
+};
+
+export default LazyDependency;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hc3luYy5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsIkxhenlEZXBlbmRlbmN5Il0sIm1hcHBpbmdzIjoiQUFBQSxPQUFPQSxLQUFQLE1BQWtCLE9BQWxCOztBQUVBLElBQU1DLGNBQWMsR0FBRyxTQUFqQkEsY0FBaUI7QUFBQSxzQkFDckIsbUZBRHFCO0FBQUEsQ0FBdkI7O0FBSUEsZUFBZUEsY0FBZiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmNvbnN0IExhenlEZXBlbmRlbmN5ID0gKCkgPT4gKFxuICA8ZGl2PkkgYW0gYSBsYXp5IGNvbXBvbmVudCB0aGF0IGlzIGZyb20gYSBkZXBlbmRlbmN5PC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBMYXp5RGVwZW5kZW5jeTtcbiJdfQ==
