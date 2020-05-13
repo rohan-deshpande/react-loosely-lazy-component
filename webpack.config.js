@@ -33,4 +33,9 @@ module.exports = {
       test: path.resolve(__dirname, "webpack"),
     },
   },
+  externals: {
+    react: "react",
+    reactDOM: "react-dom",
+    "react-loosely-lazy": "react-loosely-lazy",
+  },
 };
