@@ -1,4 +1,4 @@
-(window["webpackJsonpreact_loosely_lazy_component"] = window["webpackJsonpreact_loosely_lazy_component"] || []).push([[0],{
+(window["webpackJsonpreact_loosely_lazy_component"] = window["webpackJsonpreact_loosely_lazy_component"] || []).push([["dependency-async"],{
 
 /***/ "./src/async.js":
 /*!**********************!*\
@@ -22,4 +22,4 @@ var LazyDependency = function LazyDependency() {
 /***/ })
 
 }]);
-//# sourceMappingURL=0.js.map
+//# sourceMappingURL=dependency-async.js.map

@@ -53,7 +53,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "" + ({"dependency-async":"dependency-async"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -225,10 +225,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_loosely_lazy__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_loosely_lazy__WEBPACK_IMPORTED_MODULE_0__);
 
 var LazyComponent = Object(react_loosely_lazy__WEBPACK_IMPORTED_MODULE_0__["lazyForPaint"])(function () {
-  return (
-    /* webpackChunkName: "dependency-async" */
-    __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./async */ "./src/async.js"))
-  );
+  return __webpack_require__.e(/*! import() | dependency-async */ "dependency-async").then(__webpack_require__.bind(null, /*! ./async */ "./src/async.js"));
 });
 
 /***/ }),
