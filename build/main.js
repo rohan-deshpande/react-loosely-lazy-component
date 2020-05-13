@@ -3502,31 +3502,12 @@ if (false) {} else {
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! exports provided: LazyComponent, SOME_VAR */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main */ "./src/main.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LazyComponent", function() { return _main__WEBPACK_IMPORTED_MODULE_0__["LazyComponent"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SOME_VAR", function() { return _main__WEBPACK_IMPORTED_MODULE_0__["SOME_VAR"]; });
-
-
-
-/***/ }),
-
-/***/ "./src/main.js":
-/*!*********************!*\
-  !*** ./src/main.js ***!
-  \*********************/
-/*! exports provided: LazyComponent, SOME_VAR */
+/*! exports provided: LazyComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LazyComponent", function() { return LazyComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SOME_VAR", function() { return SOME_VAR; });
 /* harmony import */ var react_loosely_lazy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-loosely-lazy */ "./node_modules/react-loosely-lazy/lib/esm/index.js");
 
 var LazyComponent = Object(react_loosely_lazy__WEBPACK_IMPORTED_MODULE_0__["lazyForPaint"])(function () {
@@ -3535,7 +3516,6 @@ var LazyComponent = Object(react_loosely_lazy__WEBPACK_IMPORTED_MODULE_0__["lazy
     __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./async */ "./src/async.js"))
   );
 });
-var SOME_VAR = true;
 
 /***/ })
 
