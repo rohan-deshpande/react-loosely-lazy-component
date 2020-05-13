@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
+(window["webpackJsonpreact_loosely_lazy_component"] = window["webpackJsonpreact_loosely_lazy_component"] || []).push([[0],{
 
 /***/ "./src/async.js":
 /*!**********************!*\

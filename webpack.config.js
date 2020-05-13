@@ -9,7 +9,9 @@ module.exports = {
     path: path.join(__dirname, 'build'),
     filename: '[name].js',
     chunkFilename: '[name].js',
-    publicPath: '/build/'
+    publicPath: '/build/',
+    library: 'react-loosely-lazy-component',
+    libraryTarget: 'umd'
   },
   devtool: 'source-map',
   module: {
