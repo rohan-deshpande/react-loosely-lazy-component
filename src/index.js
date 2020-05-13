@@ -1,1 +1,5 @@
-export { LazyComponent, SOME_VAR } from './main';
+import { lazyForPaint } from 'react-loosely-lazy';
+
+export const LazyComponent = lazyForPaint(() =>
+  /* webpackChunkName: "dependency-async" */ import('./async')
+);

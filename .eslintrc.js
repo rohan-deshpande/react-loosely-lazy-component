@@ -22,5 +22,14 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'always']
-  }
+  },
+  overrides: [
+    {
+      // Jest env
+      files: ['*.test.{js,ts,tsx}'],
+      env: {
+        jest: true
+      }
+    }
+  ]
 };
