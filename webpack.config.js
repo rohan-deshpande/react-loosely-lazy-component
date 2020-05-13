@@ -36,5 +36,9 @@ module.exports = {
     alias: {
       test: path.resolve(__dirname, 'webpack')
     }
+  },
+  externals: {
+    react: 'react',
+    'react-loosely-lazy': 'react-loosely-lazy'
   }
 };
