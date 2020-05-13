@@ -1,6 +1,6 @@
 {
   "name": "react-loosely-lazy-component",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A component that uses rll to async load another component",
   "main": "build/main.js",
   "scripts": {

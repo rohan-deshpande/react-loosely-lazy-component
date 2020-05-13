@@ -1,3 +1,3 @@
-# React Loosely Lazy App 
+# React Loosely Lazy Component 
 
-A simple react app that uses [`react-loosely-lazy`](https://github.com/atlassian-labs/react-loosely-lazy) to test out a few things.
+A simple react component that returns a [`react-loosely-lazy`](https://github.com/atlassian-labs/react-loosely-lazy) lazy component.
