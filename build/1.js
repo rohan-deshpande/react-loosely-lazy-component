@@ -1,1 +1,1 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{3:function(n,e,a){"use strict";a.r(e);var t=a(1),o=a.n(t);e.default=function(){return o.a.createElement("div",null,"I am a lazy component that is from a dependency")}}}]);
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{4:function(n,e,a){"use strict";a.r(e);var t=a(0),o=a.n(t);e.default=function(){return o.a.createElement("div",null,"I am a lazy component that is from a dependency")}}}]);
